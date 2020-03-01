@@ -102,7 +102,7 @@ function draw(){
     
     snake.unshift(newHead);
 
-    if(snake.length > 25){
+    if(snake.length > 30){
         ctx.fillText("You Win!!!", 7*box,10 * box);
         clearInterval(game);
     }
